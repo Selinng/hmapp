@@ -1,0 +1,20 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+}
+/*div {*/
+/*    width: 100%;*/
+/*}*/
+.title {
+    font-size: 100px;
+}
+.add {
+    font-size: 60px;
+}
+.todo-item {
+    font-size: 60px;
+    color: crimson;
+    width: 100%;
+}

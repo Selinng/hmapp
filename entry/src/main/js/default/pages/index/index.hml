@@ -1,0 +1,15 @@
+<div class="container">
+<!--    <text class="title">-->
+<!--        {{ $t('strings.hello') }} {{title}}-->
+<!--    </text>-->
+    <div>
+        <text class="add" onclick="addTodo">
+            添加todo
+        </text>
+    </div>
+    <div for="{{todoList}}">
+        <text class="todo-item">
+            {{$item.name}}
+        </text>
+    </div>
+</div>
