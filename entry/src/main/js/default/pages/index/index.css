@@ -2,7 +2,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 80px;
+/*    padding-left: 80px;*/
 }
 /*div {*/
 /*    width: 100%;*/
@@ -17,4 +17,15 @@
     font-size: 60px;
     color: crimson;
     width: 100%;
+}
+.swiper-style {
+    height: 600px;
+    indicator-color: #4682b4;
+    indicator-selected-color: #ffffff;
+    indicator-size: 20px;
+    margin-top: 15px;
+}
+
+.image-mode {
+    object-fit: contain;
 }

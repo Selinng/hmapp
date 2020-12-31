@@ -39,7 +39,7 @@
         "name": "com.example.hmapp.MainAbility",
         "icon": "$media:icon",
         "description": "$string:mainability_description",
-        "label": "hmApp",
+        "label": "todo",
         "type": "page",
         "launchType": "standard"
       }
