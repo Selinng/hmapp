@@ -1,18 +1,20 @@
+<element name="todoDialog" src="../../common/component/todoDialog/index.hml"></element>
+<element name="todoItem" src="../../common/component/todoItem/index.hml"></element>
 <div class="container">
 <!--    <text class="title">-->
 <!--        {{ $t('strings.hello') }} {{title}}-->
 <!--    </text>-->
-    <swiper id="swiperImage" class="swiper-style">
-        <image src="{{$item}}" class="image-mode" focusable="true" for="{{imageList}}"></image>
-    </swiper>
+<!--    <swiper id="swiperImage" class="swiper-style">-->
+<!--        <image src="{{$item}}" class="image-mode" focusable="true" for="{{imageList}}"></image>-->
+<!--    </swiper>-->
     <div>
-<!--        <text class="add" onclick="addTodo">-->
-<!--            添加todo-->
-<!--        </text>-->
-    </div>
-    <div for="{{todoList}}">
-        <text class="todo-item">
-            {{$item.name}}
+        <text class="add" @click="addTodo">
+            添加todo
         </text>
     </div>
+    <div for="{{todoList}}">
+        <todoItem item="{{ $item }}"></todoItem>
+    </div>
+    <todoDialog if="{{showDialog}}" isEdit="{{isEdit}}">
+    </todoDialog>
 </div>

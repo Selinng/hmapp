@@ -1,8 +1,13 @@
 export default {
     addTodo() {
-        this.index ++
-        this.todoList.push({
-            name: `todo${this.index}`
-        })
+        this.showDialog = true
+        if(!this.selectTodo) {
+            return this.isEdit = true
+        }
+        this.isEdit = false
+//        this.index ++
+//        this.todoList.push({
+//            name: `todo${this.index}`
+//        })
     }
 }

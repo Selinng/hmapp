@@ -39,7 +39,7 @@
         "name": "com.example.hmapp.MainAbility",
         "icon": "$media:icon",
         "description": "$string:mainability_description",
-        "label": "todo",
+        "label": "hmApp",
         "type": "page",
         "launchType": "standard"
       }
@@ -50,6 +50,16 @@
           "pages/index/index"
         ],
         "name": "default",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": false
+        }
+      },
+      {
+        "pages": [
+          "pages/index/index"
+        ],
+        "name": "TodoItem",
         "window": {
           "designWidth": 720,
           "autoDesignWidth": false

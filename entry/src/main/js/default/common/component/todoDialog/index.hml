@@ -1,0 +1,15 @@
+
+<div class="dialog">
+    <div>
+        <text>
+            <span>todo名称：</span>
+        </text>
+        <input></input>
+    </div>
+    <div>
+        <text>
+            <span>计划时间：</span>
+        </text>
+        <input type="time"></input>
+    </div>
+</div>

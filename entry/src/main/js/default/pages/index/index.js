@@ -4,7 +4,13 @@ const app = {
         title: "",
         todoList: [],
         todoIndex: 0,
-        imageList: []
+        imageList: [],
+        showDialog: false
+    },
+    computed: {
+        currentTodo() {
+            return this.todoList.find(i => i.select)
+        }
     },
     onInit() {
         this.title = this.$t('strings.world')
